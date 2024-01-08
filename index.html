@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Minha Aplicação</title>
+</head>
+<body>
+    <header>
+        <h1>Minha Aplicação</h1>
+    </header>
+    <main>
+        <section class="app-info">
+            <h2>Detalhes da Aplicação</h2>
+            <p>Descrição da aplicação...</p>
+            <button id="show-specs-btn">Ver Especificações</button>
+        </section>
+        <section id="specs" class="hidden">
+            <h2>Especificações Técnicas</h2>
+            <ul>
+                <li><strong>Processador (CPU):</strong> AMD Ryzen 7 5800X ou equivalente</li>
+                <li><strong>Memória RAM:</strong> Corsair Vengeance LPX 32GB (2 x 16GB) DDR4-3200</li>
+                <li id="gpu-spec"><strong>Placa de Vídeo (GPU):</strong> NVIDIA GeForce RTX 3060 ou AMD Radeon RX 6700 XT</li>
+                <img id="gpu-image" class="hidden" src="path/to/gpu_image.jpg" alt="Imagem da Placa de Vídeo">
+                <li><strong>Armazenamento:</strong> SSD NVMe de 1TB, como o Samsung 970 EVO</li>
+                <li><strong>Placa-mãe:</strong> ASUS ROG Strix B550-F Gaming (Wi-Fi 6)</li>
+                <li><strong>Fonte de Alimentação:</strong> EVGA SuperNOVA 650 G5, 80 Plus Gold, 650W</li>
+                <li><strong>Gabinete:</strong> NZXT H510</li>
+                <li><strong>Sistema de Resfriamento:</strong> Cooler Master Hyper 212 RGB Black Edition</li>
+            </ul>
+        </section>
+    </main>
+    <script src="scripts.js"></script>
+</body>
+</html>
